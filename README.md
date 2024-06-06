@@ -9,13 +9,13 @@ The Iris flower dataset is a collection of morphological measurements of 150 iri
 
 ### Tasks:
 
- * To research the data set online and write a summary about it.
- * To download the data set and add it to your repository. 
- * To write a program that: 
-        * Outputs a summary of each variable to a single text file
-        * Saves a histogram of each variable to png files
-        * Outputs a scatter plot of each pair of variables
- * To perform any other analysis that could be considered appropriate
+-   To research the data set online  and write a summary about it.
+-   To download the data set and add it to your repository. 
+-   To write a program that: 
+    -   Outputs a summary of each    variable to a single text file
+    -   To save a histogram of each variable to png files
+    -   Outputs a scatter plot of each pair of variables
+-   To perform any other analysis that could be considered appropriate
 
 ### Solution:
 
