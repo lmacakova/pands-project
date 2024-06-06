@@ -27,7 +27,7 @@ For better understanding of correlation between variables, I made a correlation 
 
 #### Analysis
 The aim of this dataset is to test various mathematical models to sort records with 4 attributes properly. I used 3 models and tested the accuracy: [Linear discriminant analysis](https://www.youtube.com/watch?v=azXCzI57Yfc), [Logistic regression](https://www.youtube.com/watch?v=yIYKR4sgzI8), and [Decision Tree Classifier](https://www.youtube.com/watch?v=_L39rN6gz7Y).
-First, I divided the dataset into dataframe x for morphological values and series y for categorical species values. I encoded series y to numerical values 0,1,2 for species [^7]. I divide dataframe x and series y in train, tests sets to test the accuracy of the classification method [^8].
+First, I divided the dataset into dataframe x for morphological values and series y for categorical species values. I encoded series y to numerical values 0,1,2 for species [^7]. I divided dataframe x and series y in train, tests sets to test the accuracy of the classification method [^8].
 The dendrogram of dataframe x stays aside as an experiment: Just an interesting view of visible clusters in the dataframe. The records were not sorted into clusters [^9].
 For classifications, I used classifiers from sklearn library LinearDescriminantAnalysis()[^10], LogisticRegression()[^11],DecisionTreeClassifier [^12], fitted them to train_x, train_y to create models and counted the score with train_x, train_y.
 
