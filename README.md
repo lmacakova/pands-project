@@ -1,8 +1,10 @@
-# pands-project
+![iris](https://images.pexels.com/photos/31178524/pexels-photo-31178524.jpeg)
+)
+# Programing for Data Analytics - Project
 ## Author: Lucia Macakova
 ## Data Analyses of Iris Dataset
-### About the Author
-My name is Lucia Macakova and I am a student of the [Atlantic Technical University](https://www.atu.ie/) in the program [Higher Diplomma in Science and Data Analytics](https://www.gmit.ie/higher-diploma-in-science-in-computing-in-data-analytics). I am the only contributor to this project as this is my project for the module Programming and Scripting.
+### About
+I am a student of the [Atlantic Technical University](https://www.atu.ie/) in the program [Higher Diplomma in Science and Data Analytics](https://www.gmit.ie/higher-diploma-in-science-in-computing-in-data-analytics). This project is my project for the module Programming and Scripting.
 
 ### Iris Dataset
 The Iris flower dataset is a collection of morphological measurements of 150 iris plants used in 1936 by statistician and biologist [Ronald Fischer](https://en.wikipedia.org/wiki/Ronald_Fisher) as an example of [linear dicriminant analysis](https://en.wikipedia.org/wiki/Linear_discriminant_analysis). Data were collected by botanist [Edgar Anderson](https://en.wikipedia.org/wiki/Edgar_Anderson).Dataset consists of 3 species of genus (*Iris*), [Bristle-Pointed Iris](https://en.wikipedia.org/wiki/Iris_setosa#:~:text=Iris%20setosa%2C%20the%20bristle%2Dpointed,Limniris%20and%20the%20series%20Tripetalae.) (*Iris Setosa*), [Virginia Blueflag Iris](https://en.wikipedia.org/wiki/Iris_virginica) (*Iris Virginica*), and [Blue Flag Iris](https://en.wikipedia.org/wiki/Iris_versicolor) (*Iris Versicolor*), everyone is represented with 50 samples. In each sample, four features of the flower were measured: Sepal length in cm, sepal width in cm, petal length in cm, and petal width in cm. Over the years, the Iris dataset became a typical test case for many statistical classification techniques in machine learning [^1].
@@ -35,8 +37,7 @@ For classifications, I used classifiers from sklearn library LinearDescriminantA
 With README.md and then follow the steps in iris_analysis.ipynb.
 
 ### Contact:
-Lucia Macakova
-
+Lucia Macakova\
 email: G00439449@atu.ie
 
 ### Resources
