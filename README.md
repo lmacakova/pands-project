@@ -1,5 +1,5 @@
 ![iris](https://images.pexels.com/photos/31178524/pexels-photo-31178524.jpeg)
-)
+
 # Programing for Data Analytics - Project
 ## Author: Lucia Macakova
 ---
