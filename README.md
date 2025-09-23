@@ -38,11 +38,11 @@ This dataset is often used as a benchmark for statistics and machine learning.
 ---
 
 ### Solution 
-First, I created the iris dataframe with the URL address of the archive of the University of California [^2], a list of column names, and saved it as a csv file.\
+First, I created the iris dataframe with the URL address of the archive of the University of California [^1], a list of column names, and saved it as a csv file.\
 Then I loaded libraries and iris.csv for analysis in iris_analysis.ipynb. I made a short review and summary with commands df.info() and df.describe(). 
 I made summaries of morphological values along with summaries for species and saved them into folder summaries. I made explanatory data analysis with histograms, scatterplot, and violin plots.\
-In analysis, I used 3 models and tested the accuracy: Linear discriminant analysis[^3], Logistic regression[^4], and Decision Tree Classifier[^5].
-First, I divided the dataset into dataframe x for morphological values and series y for categorical species values. I encoded series y to numerical values 0,1,2 for species. I divided dataframe x and series y in train, tests sets to test the accuracy of the classification method [^6].
+In analysis, I used 3 models and tested the accuracy: Linear discriminant analysis[^2], Logistic regression[^3], and Decision Tree Classifier[^4].
+First, I divided the dataset into dataframe x for morphological values and series y for categorical species values. I encoded series y to numerical values 0,1,2 for species. I divided dataframe x and series y in train, tests sets to test the accuracy of the classification method [^5].
   
 
 ### Results: 
@@ -61,17 +61,16 @@ First, I divided the dataset into dataframe x for morphological values and serie
 ---
 
 ### Contact
-Lucia Macakova
+Lucia Macakova\
 📧 G00439449@atu.ie  
 
 ---
 
 ### Resources:
-[^1]:   https://en.wikipedia.org/wiki/Iris_flower_data_set
-[^2]:   https://archive.ics.uci.edu/ml/machine-learning-databases/iris/iris.data
-[^3]:   https://scikit-learn.org/stable/modules/generated/sklearn.discriminant_analysis.LinearDiscriminantAnalysis.html     
-[^4]:   https://scikit-learn.org/stable/modules/generated/sklearn.linear_model.LogisticRegression.html#sklearn.linear_model.LogisticRegression
-[^5]:   https://scikit-learn.org/stable/modules/generated/sklearn.tree.DecisionTreeClassifier.html
-[^6]:   https://www.w3schools.com/python/python_ml_train_test.asp 
+[^1]:   https://archive.ics.uci.edu/ml/machine-learning-databases/iris/iris.data
+[^2]:   https://scikit-learn.org/stable/modules/generated/sklearn.discriminant_analysis.LinearDiscriminantAnalysis.html     
+[^3]:   https://scikit-learn.org/stable/modules/generated/sklearn.linear_model.LogisticRegression.html#sklearn.linear_model.LogisticRegression
+[^4]:   https://scikit-learn.org/stable/modules/generated/sklearn.tree.DecisionTreeClassifier.html
+[^5]:   https://www.w3schools.com/python/python_ml_train_test.asp 
 
 
