@@ -1,6 +1,6 @@
 ![iris](https://images.pexels.com/photos/31178524/pexels-photo-31178524.jpeg)
 
-# Programming for Data Analytics – Project  
+# Iris Dataset Analysis 
 ## Author: Lucia Macakova  
 
 ---
@@ -29,11 +29,11 @@ This dataset is often used as a benchmark for statistics and machine learning.
 ---
 
 ### Tasks
-- Download and store the dataset for analysis.
-- Research and summarize the Iris dataset. 
-- Perform exploratory data analysis (EDA)  
-- Apply statistical tests.  
-- Train and evaluate classification models.  
+-   Download and store the dataset for analysis.
+-   Research and summarize the Iris dataset. 
+-   Perform exploratory data analysis (EDA)  
+-   Apply statistical tests.  
+-   Train and evaluate classification models.  
 
 ---
 
@@ -43,20 +43,21 @@ Then I loaded libraries and iris.csv for analysis in iris_analysis.ipynb. I made
 I made summaries of morphological values along with summaries for species and saved them into folder summaries. I made explanatory data analysis with histograms, scatterplot, and violin plots.\
 In analysis, I used 3 models and tested the accuracy: Linear discriminant analysis[^2], Logistic regression[^3], and Decision Tree Classifier[^4].
 First, I divided the dataset into dataframe x for morphological values and series y for categorical species values. I encoded series y to numerical values 0,1,2 for species. I divided dataframe x and series y in train, tests sets to test the accuracy of the classification method [^5].
-  
+
+--- 
 
 ### Results: 
-- Logistic Regression and LDA achieved near-perfect accuracy.  
-- Decision Tree was interpretable but less stable and slightly less accurate, confirming petals are the best predictors.  
-- Confusion matrices showed most misclassifications occurred between *Versicolor* and *Virginica*.  
+-   Logistic Regression and LDA achieved near-perfect accuracy.  
+-   Decision Tree was interpretable but less stable and slightly less accurate, confirming petals are the best predictors.  
+-   Confusion matrices showed most misclassifications occurred between *Versicolor* and *Virginica*.  
 
 ---
 
 ### How to Use
-1. Clone this repository.  
-2. Open `iris_analysis.ipynb` in Jupyter Notebook or JupyterLab.  
-3. Run cells step by step to reproduce the analysis.  
-4. Plots and summaries are saved automatically into the `summaries_variables/` and `plots/` folders.  
+1.  Clone this repository.  
+2.  Open `iris_analysis.ipynb` in Jupyter Notebook or JupyterLab.  
+3.  Run cells step by step to reproduce the analysis.  
+4.  Plots and summaries are saved automatically into the `summaries_variables/` and `plots/` folders.  
 
 ---
 
