@@ -5,8 +5,7 @@
 
 ---
 
-### About Project
-This project is my submission for the module *Programming and Scripting*. It is an analysis of the classic [Iris dataset](https://en.wikipedia.org/wiki/Iris_flower_data_set). The notebook `iris_analysis.ipynb` contains the full analysis, explanations, plots, and results.
+This project was developed as part of the Programming and Scripting module at ATU. 
 
 ---
 
